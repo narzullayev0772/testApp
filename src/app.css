@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 92vh;
+  width: 100%;
+  background: #e8e8e8 !important;
+}
+.App__chat {
+  flex: 6;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.App__side {
+  flex: 3;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: #e8e8e8;
+  /* background: linear-gradient(135deg, #008888, #0ff, #088888); */
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: all 1s;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

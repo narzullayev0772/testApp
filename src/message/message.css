@@ -1,0 +1,27 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  padding-bottom: 0;
+  width: fit-content;
+  max-width: 80%;
+  background-color: aqua;
+  border-radius: 10px;
+  margin: 1%;
+}
+.message__time {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.message__wrapper {
+  width: 100%;
+  display: flex;
+}
+.message__text {
+  width: 100%;
+  word-break: break-word;
+  white-space: normal;
+}
